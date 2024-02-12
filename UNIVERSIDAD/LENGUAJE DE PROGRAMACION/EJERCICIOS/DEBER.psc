@@ -1,0 +1,9 @@
+Algoritmo EJERCICIO5
+	Definir TOTAL Como Real;
+	Escribir "ESCRIBA EL PRESUPUESTO ANUAL";
+	leer TOTAL;
+	Escribir "A LA AREA DE URGENCIAS LE CORRESPONDE $",total * 0.30;
+	Escribir "A LA AREA DE PEDIATRIA LE CORRESPONDE $",total *0.40;
+	Escribir "A LA AREA DE TRAUMATOLOGIA LE CORRESPONDE $",total *0.30;
+	
+FinAlgoritmo

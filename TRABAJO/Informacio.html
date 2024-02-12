@@ -1,0 +1,101 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Informacion</title>
+
+    <!-- Enlaces a Bootstrap (CSS y JS) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Tu archivo de estilos CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Nombre de la Empresa</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <h1>Bienvenido a [Nombre de la Empresa]</h1>
+        <p>Descubre nuestra gama de productos y servicios de alta calidad.</p>
+        <a class="btn btn-primary btn-lg" href="#productos" role="button">Ver Productos</a>
+    </section>
+
+    <!-- Sección de Productos -->
+    <section id="productos" class="section">
+        <h2>Nuestros Productos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="producto1.jpg" alt="Producto 1" class="img-fluid">
+                <h3>Producto 1</h3>
+                <p>Descripción del Producto 1.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="producto2.jpg" alt="Producto 2" class="img-fluid">
+                <h3>Producto 2</h3>
+                <p>Descripción del Producto 2.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="producto3.jpg" alt="Producto 3" class="img-fluid">
+                <h3>Producto 3</h3>
+                <p>Descripción del Producto 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios" class="section">
+        <h2>Nuestros Servicios</h2>
+        <p>Ofrecemos una variedad de servicios para satisfacer tus necesidades.</p>
+        <ul>
+            <li>Servicio de Consultoría Tecnológica</li>
+            <li>Mantenimiento de Equipos</li>
+            <li>Desarrollo de Software Personalizado</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto" class="section">
+        <h2>Contacto</h2>
+        <p>Estamos aquí para ayudarte. Contáctanos para obtener más información.</p>
+        <p>Email: info@empresa.com</p>
+        <p>Teléfono: (123) 456-7890</p>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <p>&copy; Año Actual [Nombre de la Empresa] - Todos los derechos reservados</p>
+    </footer>
+
+
+    
+</body>
+</html>

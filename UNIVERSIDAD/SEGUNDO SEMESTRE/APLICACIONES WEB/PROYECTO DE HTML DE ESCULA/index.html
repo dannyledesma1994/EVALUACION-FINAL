@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <title>UNIDAD EDUCATIVA</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2; /* Color de fondo */
+        }
+
+        header, nav, section, article, footer {
+            border: 1px solid #ccc;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff; /* Color de fondo para secciones */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+        }
+
+        form label, form input, form textarea, form select {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            background-color: #333; /* Color de fondo para el pie de página */
+            color: #fff; /* Color del texto en el pie de página */
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 style="color: #333;">"ESCUELA DEL SABER Y PODER" </h1>
+        <p>Transformando vidas a través de la educación</p>
+        <h4>
+            <a href="https://www.youtube.com/watch?v=ccCRyTnAXSI">ESCUELA</a>
+        </h4>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#admision">Admisión</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="inicio">
+        <h2>Bienvenido a Nuestra Institución Educativa</h2>
+        <p>Comprometidos con la excelencia académica y el desarrollo integral de nuestros estudiantes.</p>
+        <img src="/Img.jpg" alt="Imagen de la institución">
+    </section>
+
+    <section id="cursos">
+        <h2>Conoce sobre Nuesta Unidad Educativa</h2>
+        <article>
+            <h3>Educación en valores</h3>
+            <p>Constantemente fomentamos valores en nuestros estudiantes, así salen preparados como seres humanos íntegros y listos para enfrentar al mundo. Resaltamos la cultura del diálogo de manera directa, personal y transparente, favoreciendo una relación armónica entre alumno y maestro que facilita el proceso de aprendizaje.</p>
+            <img src="/Imag1.jpg" alt="Imagen del Curso 1">
+        </article>
+        <article>
+            <h3>Inclusión Educativa</h3>
+            <p>Los alumnos con necesidades educativas especiales potencian sus capacidades al estar con compañeros de su misma edad, al tiempo que el colegio se esmera en desarrollar sus fortalezas mediante adaptaciones curriculares. Los padres de familia se involucran con las actividades escolares y sociales de sus hijos. Por último, nuestra educación inclusiva de más de tres décadas nos ha ayudado a fomentar un ambiente escolar de respeto y pertenencia,y sobre todo, a proveer oportunidades para conocer y aceptar las diferencias individuales, lo que ha reducido el acoso escolar e intimidación.</p>
+            <img src="/imag2.jpg" alt="Imagen del Curso 2">
+        </article>
+    </section>
+
+    <section id="admision">
+        <h2>Proceso de Admisión</h2>
+        <form action="proceso_admision.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="Nivel">Nivel de Interes:</label>
+            <select id="Nivel" name="Nivel">
+                <option value="Nivel1">Nivel 1</option>
+                <option value="Nivel2">Nivel 2</option>
+                <option value="Nivel3">Nivel 3</option>
+                Calle: <input name=calle><br>
+N&uacute;mero: <input name=numero><br>
+C&oacute;digo postal: <input name=cp size=5 maxlength=5 value="99999"><br>
+
+            </select>
+
+            <input type="submit" value="Enviar Solicitud">
+        </form>
+        
+    </section>
+
+    <footer>
+        <p> 2024 LA EXELENCIA EN TU MUNDO.</p>
+    </footer>
+    
+
+</body>
+</html>

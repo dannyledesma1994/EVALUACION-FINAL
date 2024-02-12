@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <style>
+        body {
+            background-image: url('/assets/images/contac.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        #container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin-top: 50px;
+        }
+
+        .contact-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contacto</h1>
+    </header>
+
+    <div id="container">
+        <div class="contact-form">
+            <form action="tu_script_de_procesamiento.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+            <footer class="py-4 bg-dark text-white text-center">
+                <div class="container">
+                    <div class="container mt-4">
+                        <section id="contact-info">
+                            <h2>Información de Contacto</h2>
+                            <p>Si prefieres comunicarte de otras maneras, aquí tienes nuestras opciones de contacto:</p>
+                            <ul>
+                                <li><strong>Teléfono:</strong> 0980941778 </li>
+                                <li><strong>Correo Electrónico:</strong> dannyledesma7@gmail.com</li>
+                                <li><strong>Dirección:</strong> Calle Principal,Los Chillos -Quito -Ecuador</li>
+                            </ul>
+                        </section>
+                    </div>
+                  <p>&copy; 2024 Tu Empresa esta a tu alcase de tus manos.</p> <footer class="py-4 bg-dark text-white text-center">
+                    
+                    <div class="container">
+                      
+                        
+        </div>
+    </div>
+   
+          
+
+</body>
+</html>

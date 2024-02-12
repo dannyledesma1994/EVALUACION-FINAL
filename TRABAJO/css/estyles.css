@@ -1,0 +1,39 @@
+h1 {
+    background-color: #7196ce;
+    color: rgb(17, 6, 78);
+    text-align: center;
+    padding: 1ch;
+}
+h4 {
+    text-align: right;
+    padding: 5px;
+    background-color: #00ffff;
+    color: #fff;
+}
+h3{
+color: #1322f3;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 1pc;
+}
+img{
+    width: 400px;
+    height: 200px;
+    text-align: right;
+}
+body{
+    background-image: url(/assets/fondo.jpg);
+    ;
+    
+}
+footer{
+    background-color: #2e15a0;
+    height: 1ch;
+
+}
+main{
+    color: rgb(166, 255, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: start;
+
+
+}

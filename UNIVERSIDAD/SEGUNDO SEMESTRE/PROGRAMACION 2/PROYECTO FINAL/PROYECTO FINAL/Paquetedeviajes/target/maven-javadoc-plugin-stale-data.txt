@@ -1,0 +1,46 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'20'
+-sourcepath
+'C:/Users/Administrador/Documents/NetBeansProjects/Paquetedeviajes/src/main/java;C:/Users/Administrador/Documents/NetBeansProjects/Paquetedeviajes/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Administrador/Documents/NetBeansProjects/Paquetedeviajes/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Paquetedeviajes 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'Paquetedeviajes 1.0-SNAPSHOT API'
+Comprapaquetesviaje
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\src\main\java = 1702421798741
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\generated-sources\annotations = 1702422517272
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\allclasses-index.html = 1702431728331
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\allpackages-index.html = 1702431728335
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\copy.svg = 1702431728394
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\element-list = 1702431728151
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\help-doc.html = 1702431728381
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\index-all.html = 1702431728363
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\index.html = 1702431728373
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\member-search-index.js = 1702431728346
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\module-search-index.js = 1702431728340
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\overview-tree.html = 1702431728311
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\package-search-index.js = 1702431728342
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\script.js = 1702431728390
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\search-page.js = 1702431728402
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\search.html = 1702431728369
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\search.js = 1702431728399
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\serialized-form.html = 1702431728275
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\stylesheet.css = 1702431728386
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\tag-search-index.js = 1702431728349
+C:\Users\Administrador\Documents\NetBeansProjects\Paquetedeviajes\target\apidocs\type-search-index.js = 1702431728344
