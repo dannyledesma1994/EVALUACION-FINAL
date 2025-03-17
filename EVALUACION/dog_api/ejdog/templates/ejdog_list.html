@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Dogs</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #007bff;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .search-box input {
+            padding: 10px;
+            width: 300px;
+        }
+        .search-box button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .ejdog-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .ejdog-card {
+            background: #1e1e1e;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+        }
+        .ejdog-card img {
+            width: 100px;
+            height: 100px;
+        }
+        .view-button {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Lista de .ejdog</h1>
+
+        <div class="search-box">
+            <form method="GET">
+                <input type="text" name="search" placeholder="Buscar ejdog..." required>
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+
+        {% if error %}
+            <p style="color: red;">{{ error }}</p>
+        {% endif %}
+
+        <div class="ejdog-container">
+            {% for ejdog in ejdog %}
+                <div class="ejdog-card">
+                    <p><strong>{{ ejdog.name }}</strong></p>
+                    <img src="{{ ejdog.image_url }}" alt="{{ ejdog.name }}" loading="lazy">
+                    <p>{{ ejdog.description }}</p>
+                    <button class="view-button" onclick="alert('Más información de {{ ejdog.name }}')">Ver más</button>
+                </div>
+            {% empty %}
+                <p>No se encontraron ejdog.</p>
+            {% endfor %}
+        </div>
+    </div>
+
+</body>
+</html>
